@@ -2,6 +2,11 @@ package pl.dominisz.springintroduction.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import pl.dominisz.springintroduction.exception.UnreachableException;
+import pl.dominisz.springintroduction.model.ChargeResult;
+import pl.dominisz.springintroduction.model.CreditCard;
+import pl.dominisz.springintroduction.model.Order;
+import pl.dominisz.springintroduction.model.Receipt;
 
 @Component
 public class PayUBillingService implements BillingService {
